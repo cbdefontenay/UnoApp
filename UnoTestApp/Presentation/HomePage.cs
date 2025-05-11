@@ -11,7 +11,7 @@ public sealed partial class HomePage : Page
                 .Children
                 (
                     new TextBlock()
-                        .Text("hugu")
+                        .Text("Ma première page")
                 )
             )
         );

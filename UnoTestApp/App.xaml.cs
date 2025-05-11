@@ -99,7 +99,8 @@ public partial class App : Application
             new ViewMap(ViewModel: typeof(ShellViewModel)),
             new ViewMap<MainPage, MainViewModel>(),
             new ViewMap<HomePage, HomeViewModel>(),
-            new ViewMap<SecondPage, SecondViewModel>()
+            new ViewMap<SecondPage, SecondViewModel>(),
+            new ViewMap<SettingsPage, SettingsViewModel>()
         );
 
         routes.Register(
@@ -109,6 +110,7 @@ public partial class App : Application
                     new RouteMap("Main", View: views.FindByViewModel<MainViewModel>(), Nested: [
                         new RouteMap("Home", View: views.FindByViewModel<HomeViewModel>(), IsDefault: true),
                         new RouteMap("Second", View: views.FindByViewModel<SecondViewModel>()),
+                        new RouteMap("Settings", View: views.FindByViewModel<SettingsViewModel>()),
                     ]),
                 ]
             )
