@@ -1,0 +1,2723 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "UnoTestApp/1.0": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
+          "Microsoft.Extensions.Logging.Console": "9.0.4",
+          "SkiaSharp.Skottie": "3.119.0-preview.1.2",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "Uno.Dsp.Tasks": "1.4.0",
+          "Uno.Extensions.Configuration": "5.3.8",
+          "Uno.Extensions.Core.WinUI": "5.3.8",
+          "Uno.Extensions.Hosting.WinUI": "5.3.8",
+          "Uno.Extensions.Http.WinUI": "5.3.8",
+          "Uno.Extensions.Localization.WinUI": "5.3.8",
+          "Uno.Extensions.Logging.WinUI": "5.3.8",
+          "Uno.Extensions.Markup.Generators": "6.0.15",
+          "Uno.Extensions.Navigation.Toolkit.WinUI": "5.3.8",
+          "Uno.Extensions.Navigation.WinUI": "5.3.8",
+          "Uno.Extensions.Navigation.WinUI.Markup": "5.3.8",
+          "Uno.Extensions.Serialization.Http": "5.3.8",
+          "Uno.Extensions.Serialization.Refit": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.Material.WinUI": "5.5.1",
+          "Uno.Material.WinUI.Markup": "5.5.1",
+          "Uno.Resizetizer": "1.8.1",
+          "Uno.Sdk.Extras": "5.6.3",
+          "Uno.Settings.DevServer": "1.3.8",
+          "Uno.Themes.WinUI.Markup": "5.5.1",
+          "Uno.Toolkit.WinUI": "7.0.2",
+          "Uno.Toolkit.WinUI.Markup": "7.0.2",
+          "Uno.Toolkit.WinUI.Material": "7.0.2",
+          "Uno.Toolkit.WinUI.Material.Markup": "7.0.2",
+          "Uno.UI.Adapter.Microsoft.Extensions.Logging": "6.0.465",
+          "Uno.UI.HotDesign": "1.11.182",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.DevServer": "6.0.465",
+          "Uno.WinUI.Graphics2DSK": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465",
+          "Uno.WinUI.Markup": "6.0.15",
+          "Uno.WinUI.Runtime.Skia.Linux.FrameBuffer": "6.0.465",
+          "Uno.WinUI.Runtime.Skia.MacOS": "6.0.465",
+          "Uno.WinUI.Runtime.Skia.Win32": "6.0.465",
+          "Uno.WinUI.Runtime.Skia.Wpf": "6.0.465",
+          "Uno.WinUI.Runtime.Skia.X11": "6.0.465"
+        },
+        "runtime": {
+          "UnoTestApp.dll": {}
+        }
+      },
+      "CommonServiceLocator/2.0.5": {
+        "runtime": {
+          "lib/netcoreapp3.0/CommonServiceLocator.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
+          }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.4.0": {
+        "runtime": {
+          "lib/net8.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.4.0.0",
+            "fileVersion": "8.4.0.1"
+          }
+        }
+      },
+      "HarfBuzzSharp/8.3.1.1-preview.1.2": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Win32": "8.3.1.1-preview.1.2",
+          "HarfBuzzSharp.NativeAssets.macOS": "8.3.1.1-preview.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "8.3.1.1"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Linux/8.3.1.1-preview.1.2": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libHarfBuzzSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-loongarch64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-loongarch64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-arm/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-arm64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-loongarch64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-loongarch64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-riscv64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-riscv64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-riscv64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-riscv64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libHarfBuzzSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libHarfBuzzSharp.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.macOS/8.3.1.1-preview.1.2": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "HarfBuzzSharp.NativeAssets.Win32/8.3.1.1-preview.1.2": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "LibVLCSharp/3.7.0": {
+        "runtime": {
+          "lib/net6.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.CommandLine/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.CommandLine.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.EnvironmentVariables/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.UserSecrets/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "System.Diagnostics.DiagnosticSource": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileSystemGlobbing": "8.0.0",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+          "Microsoft.Extensions.Configuration.CommandLine": "8.0.0",
+          "Microsoft.Extensions.Configuration.EnvironmentVariables": "8.0.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "8.0.0",
+          "Microsoft.Extensions.Configuration.Json": "8.0.0",
+          "Microsoft.Extensions.Configuration.UserSecrets": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Diagnostics": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Physical": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging.Configuration": "9.0.4",
+          "Microsoft.Extensions.Logging.Console": "9.0.4",
+          "Microsoft.Extensions.Logging.Debug": "8.0.0",
+          "Microsoft.Extensions.Logging.EventLog": "8.0.0",
+          "Microsoft.Extensions.Logging.EventSource": "8.0.0",
+          "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.0",
+          "Microsoft.Extensions.FileProviders.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Http/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Diagnostics": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Http.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Localization.Abstractions/8.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Localization.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58008"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Configuration/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.4",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.Configuration.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Console/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging.Configuration": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.Console.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.EventLog/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "System.Diagnostics.EventLog": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.EventLog.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.EventSource/8.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4",
+          "System.Text.Json": "8.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Logging.EventSource.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/9.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Configuration.Binder": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4",
+          "Microsoft.Extensions.Options": "9.0.4",
+          "Microsoft.Extensions.Primitives": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.4": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/9.0.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Microsoft.Windows.CsWin32/0.3.106": {
+        "dependencies": {
+          "Microsoft.Windows.SDK.Win32Docs": "0.1.42-alpha",
+          "Microsoft.Windows.SDK.Win32Metadata": "60.0.34-preview",
+          "Microsoft.Windows.WDK.Win32Metadata": "0.11.4-experimental"
+        }
+      },
+      "Microsoft.Windows.SDK.Win32Docs/0.1.42-alpha": {},
+      "Microsoft.Windows.SDK.Win32Metadata/60.0.34-preview": {},
+      "Microsoft.Windows.WDK.Win32Metadata/0.11.4-experimental": {
+        "dependencies": {
+          "Microsoft.Windows.SDK.Win32Metadata": "60.0.34-preview"
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "Refit/7.2.22": {
+        "runtime": {
+          "lib/net8.0/Refit.dll": {
+            "assemblyVersion": "7.2.0.0",
+            "fileVersion": "7.2.22.0"
+          }
+        }
+      },
+      "SkiaSharp/3.119.0-preview.1.2": {
+        "dependencies": {
+          "SkiaSharp.NativeAssets.Win32": "3.119.0-preview.1.2",
+          "SkiaSharp.NativeAssets.macOS": "3.119.0-preview.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.dll": {
+            "assemblyVersion": "3.119.0.0",
+            "fileVersion": "3.119.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux/3.119.0-preview.1.2": {
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libSkiaSharp.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-loongarch64/native/libSkiaSharp.so": {
+            "rid": "linux-loongarch64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-arm/native/libSkiaSharp.so": {
+            "rid": "linux-musl-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-arm64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-loongarch64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-loongarch64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-riscv64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-riscv64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "rid": "linux-musl-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-riscv64/native/libSkiaSharp.so": {
+            "rid": "linux-riscv64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x86/native/libSkiaSharp.so": {
+            "rid": "linux-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.macOS/3.119.0-preview.1.2": {
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.WebAssembly/3.119.0-preview.1.2": {},
+      "SkiaSharp.NativeAssets.Win32/3.119.0-preview.1.2": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Resources/3.119.0-preview.1.2": {
+        "dependencies": {
+          "SkiaSharp": "3.119.0-preview.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.Resources.dll": {
+            "assemblyVersion": "3.119.0.0",
+            "fileVersion": "3.119.0.0"
+          }
+        }
+      },
+      "SkiaSharp.SceneGraph/3.119.0-preview.1.2": {
+        "dependencies": {
+          "SkiaSharp": "3.119.0-preview.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.SceneGraph.dll": {
+            "assemblyVersion": "3.119.0.0",
+            "fileVersion": "3.119.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Skottie/3.119.0-preview.1.2": {
+        "dependencies": {
+          "SkiaSharp": "3.119.0-preview.1.2",
+          "SkiaSharp.Resources": "3.119.0-preview.1.2",
+          "SkiaSharp.SceneGraph": "3.119.0-preview.1.2"
+        },
+        "runtime": {
+          "lib/net8.0/SkiaSharp.Skottie.dll": {
+            "assemblyVersion": "3.119.0.0",
+            "fileVersion": "3.119.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Uno.WinUI/3.119.0-preview.1.2": {
+        "dependencies": {
+          "SkiaSharp": "3.119.0-preview.1.2",
+          "SkiaSharp.NativeAssets.WebAssembly": "3.119.0-preview.1.2",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "uno-runtime/net8.0/skia/SkiaSharp.Views.Windows.dll": {
+            "assemblyVersion": "3.119.0.0",
+            "fileVersion": "3.119.0.0"
+          }
+        }
+      },
+      "System.Collections.Immutable/8.0.0": {},
+      "System.Diagnostics.DiagnosticSource/8.0.0": {},
+      "System.Diagnostics.EventLog/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.IO.Pipelines/8.0.0": {},
+      "System.Json/4.7.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Json.dll": {
+            "assemblyVersion": "2.0.8.0",
+            "fileVersion": "4.700.20.21406"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Text.Json/8.0.5": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "Tmds.DBus.Protocol/0.21.2": {
+        "dependencies": {
+          "System.IO.Pipelines": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Tmds.DBus.Protocol.dll": {
+            "assemblyVersion": "0.21.2.0",
+            "fileVersion": "0.21.2.0"
+          }
+        }
+      },
+      "Uno.Core.Extensions/4.1.1": {
+        "runtime": {
+          "lib/net7.0/Uno.Core.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Core.Extensions.Collections/4.1.1": {
+        "dependencies": {
+          "Uno.Core.Extensions.Disposables": "4.1.1",
+          "Uno.Core.Extensions.Equality": "4.1.1"
+        },
+        "runtime": {
+          "lib/net7.0/Uno.Core.Extensions.Collections.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Core.Extensions.Disposables/4.1.1": {
+        "runtime": {
+          "lib/net7.0/Uno.Core.Extensions.Disposables.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Core.Extensions.Equality/4.1.1": {
+        "runtime": {
+          "lib/net7.0/Uno.Core.Extensions.Equality.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Core.Extensions.Logging/4.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging": "9.0.4"
+        },
+        "runtime": {
+          "lib/net6.0/Uno.Core.Extensions.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Core.Extensions.Logging.Singleton/4.1.1": {
+        "dependencies": {
+          "CommonServiceLocator": "2.0.5",
+          "Microsoft.Extensions.Logging": "9.0.4"
+        },
+        "runtime": {
+          "lib/net7.0/Uno.Core.Extensions.Logging.Singleton.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Diagnostics.Eventing/2.0.1": {
+        "runtime": {
+          "lib/net5.0/Uno.Diagnostics.Eventing.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Dsp.Tasks/1.4.0": {},
+      "Uno.Extensions.Configuration/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Hosting": "5.3.8",
+          "Uno.Extensions.Serialization": "5.3.8",
+          "Uno.Extensions.Storage": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Configuration.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Core/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Core.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Core.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Core.UI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Hosting/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Hosting.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Hosting.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Core.Extensions.Collections": "4.1.1",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Core.WinUI": "5.3.8",
+          "Uno.Extensions.Hosting": "5.3.8",
+          "Uno.Extensions.Storage": "5.3.8",
+          "Uno.Extensions.Storage.WinUI": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Hosting.WinUI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Http/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Http.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Http.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Http": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Http.WinUI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Localization/5.3.8": {
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Localization.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Localization.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Configuration": "5.3.8",
+          "Uno.Extensions.Localization": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Localization.WinUI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Logging.WebAssembly.Console/1.7.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net7.0/Uno.Extensions.Logging.WebAssembly.Console.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Extensions.Logging.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Hosting": "5.3.8",
+          "Uno.Extensions.Logging.WebAssembly.Console": "1.7.0",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.UI.Adapter.Microsoft.Extensions.Logging": "6.0.465",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Logging.WinUI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Markup.Generators/6.0.15": {},
+      "Uno.Extensions.Markup.WinUI/6.0.15": {
+        "dependencies": {
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Markup.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Navigation/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Hosting": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Navigation.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Navigation.Toolkit.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Core.Extensions": "4.1.1",
+          "Uno.Core.Extensions.Collections": "4.1.1",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Core.WinUI": "5.3.8",
+          "Uno.Extensions.Navigation.WinUI": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.Toolkit": "7.0.2",
+          "Uno.Toolkit.WinUI": "7.0.2",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Navigation.Toolkit.UI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Navigation.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Core.Extensions": "4.1.1",
+          "Uno.Core.Extensions.Collections": "4.1.1",
+          "Uno.Extensions.Configuration": "5.3.8",
+          "Uno.Extensions.Core.WinUI": "5.3.8",
+          "Uno.Extensions.Hosting": "5.3.8",
+          "Uno.Extensions.Hosting.WinUI": "5.3.8",
+          "Uno.Extensions.Navigation": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Navigation.UI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Navigation.WinUI.Markup/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Localization.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Core.Extensions": "4.1.1",
+          "Uno.Core.Extensions.Collections": "4.1.1",
+          "Uno.Extensions.Markup.WinUI": "6.0.15",
+          "Uno.Extensions.Navigation.WinUI": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465",
+          "Uno.WinUI.Markup": "6.0.15"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Navigation.WinUI.Markup.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Serialization/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Serialization.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Serialization.Http/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Http": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Configuration": "5.3.8",
+          "Uno.Extensions.Http": "5.3.8",
+          "Uno.Extensions.Serialization": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Serialization.Http.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Serialization.Refit/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Refit": "7.2.22",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Serialization": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Serialization.Refit.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Storage/5.3.8": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Serialization": "5.3.8"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Extensions.Storage.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Extensions.Storage.WinUI/5.3.8": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.4",
+          "Microsoft.Extensions.DependencyInjection": "9.0.4",
+          "Microsoft.Extensions.Hosting": "8.0.0",
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SkiaSharp.Views.Uno.WinUI": "3.119.0-preview.1.2",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Text.Json": "8.0.5",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "Uno.Core.Extensions.Collections": "4.1.1",
+          "Uno.Extensions.Configuration": "5.3.8",
+          "Uno.Extensions.Core": "5.3.8",
+          "Uno.Extensions.Serialization": "5.3.8",
+          "Uno.Extensions.Storage": "5.3.8",
+          "Uno.Fonts.OpenSans": "2.7.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0-desktop1.0/Uno.Extensions.Storage.UI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Fonts.Fluent/2.6.1": {
+        "runtime": {
+          "lib/netstandard1.0/Uno.Fonts.Fluent.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Fonts.OpenSans/2.7.1": {
+        "runtime": {
+          "lib/net7.0/Uno.Fonts.OpenSans.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Fonts.Roboto/2.2.2": {
+        "runtime": {
+          "lib/netstandard2.0/Uno.Fonts.Roboto.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Foundation/6.0.465": {
+        "runtime": {
+          "uno-runtime/net9.0/skia/Uno.Foundation.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Foundation.Logging/6.0.465": {
+        "runtime": {
+          "lib/net8.0/Uno.Foundation.Logging.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Material.WinUI/5.5.1": {
+        "dependencies": {
+          "Uno.Core.Extensions.Disposables": "4.1.1",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Fonts.Roboto": "2.2.2",
+          "Uno.Themes.WinUI": "5.5.1",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Lottie": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Material.WinUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Material.WinUI.Markup/5.5.1": {
+        "dependencies": {
+          "Uno.Material.WinUI": "5.5.1",
+          "Uno.Themes.WinUI": "5.5.1",
+          "Uno.Themes.WinUI.Markup": "5.5.1"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Material.WinUI.Markup.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Resizetizer/1.8.1": {},
+      "Uno.Sdk.Extras/5.6.3": {},
+      "Uno.Settings.DevServer/1.3.8": {},
+      "Uno.Themes.WinUI/5.5.1": {
+        "dependencies": {
+          "Uno.Core.Extensions.Disposables": "4.1.1",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Fonts.Roboto": "2.2.2",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Themes.WinUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Themes.WinUI.Markup/5.5.1": {
+        "dependencies": {
+          "Uno.Themes.WinUI": "5.5.1",
+          "Uno.WinUI.Markup": "6.0.15"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Themes.WinUI.Markup.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Toolkit/7.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Uno.Toolkit.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Toolkit.WinUI/7.0.2": {
+        "dependencies": {
+          "Uno.Core.Extensions.Collections": "4.1.1",
+          "Uno.Core.Extensions.Logging": "4.0.1",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Toolkit": "7.0.2",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Toolkit.WinUI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Toolkit.WinUI.Markup/7.0.2": {
+        "dependencies": {
+          "Uno.Toolkit.WinUI": "7.0.2",
+          "Uno.WinUI.Markup": "6.0.15"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Toolkit.WinUI.Markup.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Toolkit.WinUI.Material/7.0.2": {
+        "dependencies": {
+          "Uno.Material.WinUI": "5.5.1",
+          "Uno.Toolkit.WinUI": "7.0.2",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Toolkit.WinUI.Material.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.Toolkit.WinUI.Material.Markup/7.0.2": {
+        "dependencies": {
+          "Uno.Toolkit.WinUI.Markup": "7.0.2",
+          "Uno.Toolkit.WinUI.Material": "7.0.2"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.Toolkit.WinUI.Material.Markup.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.UI.Adapter.Microsoft.Extensions.Logging/6.0.465": {
+        "dependencies": {
+          "Uno.Core.Extensions.Logging": "4.0.1",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Foundation.Logging": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Adapter.Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.UI.HotDesign/1.11.182": {
+        "dependencies": {
+          "CommunityToolkit.Mvvm": "8.4.0",
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "Uno.Core.Extensions.Logging.Singleton": "4.1.1",
+          "Uno.Themes.WinUI": "5.5.1",
+          "Uno.Toolkit.WinUI": "7.0.2",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.DevServer": "6.0.465",
+          "Uno.WinUI.DevServer.Messaging": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.UI.HotDesign.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Client.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.CommunityToolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Hierarchy.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Messaging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.PropertyGrid.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Toolbox.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Xaml.Interactions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Xaml.Interactivity.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.Xaml.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net8.0/Uno.UI.HotDesign.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.Wasm.WebSockets/1.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Uno.Wasm.WebSockets.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Uno.WinRT/6.0.465": {
+        "dependencies": {
+          "Uno.Foundation": "6.0.465"
+        },
+        "runtime": {
+          "uno-runtime/net9.0/skia/Uno.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.UI.Dispatching.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI/6.0.465": {
+        "dependencies": {
+          "Uno.Diagnostics.Eventing": "2.0.1",
+          "Uno.Fonts.Fluent": "2.6.1",
+          "Uno.Foundation.Logging": "6.0.465",
+          "Uno.WinRT": "6.0.465"
+        },
+        "runtime": {
+          "uno-runtime/net9.0/skia/Uno.UI.Composition.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.UI.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.v1.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.v2.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.UI.Toolkit.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "uno-runtime/net9.0/skia/Uno.Xaml.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.DevServer/6.0.465": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "Uno.Wasm.WebSockets": "1.1.0",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.DevServer.Messaging": "6.0.465"
+        },
+        "runtime": {
+          "uno-runtime/net9.0/skia/Uno.UI.RemoteControl.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.DevServer.Messaging/6.0.465": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Uno.UI.RemoteControl.Messaging.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Graphics2DSK/6.0.465": {
+        "dependencies": {
+          "SkiaSharp": "3.119.0-preview.1.2",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.WinUI.Graphics2DSK.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Lottie/6.0.465": {
+        "dependencies": {
+          "System.Json": "4.7.1",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "uno-runtime/net9.0/skia/Uno.UI.Lottie.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Markup/6.0.15": {
+        "dependencies": {
+          "Uno.Extensions.Markup.WinUI": "6.0.15",
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net8.0/Uno.WinUI.Markup.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Runtime.Skia/6.0.465": {
+        "dependencies": {
+          "Uno.WinUI": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Runtime.Skia.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Runtime.Skia.Linux.FrameBuffer/6.0.465": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.1-preview.1.2",
+          "HarfBuzzSharp.NativeAssets.Linux": "8.3.1.1-preview.1.2",
+          "Microsoft.Win32.Registry": "4.7.0",
+          "SkiaSharp": "3.119.0-preview.1.2",
+          "SkiaSharp.NativeAssets.Linux": "3.119.0-preview.1.2",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Runtime.Skia": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Runtime.Skia.Linux.FrameBuffer.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Runtime.Skia.MacOS/6.0.465": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.1-preview.1.2",
+          "HarfBuzzSharp.NativeAssets.macOS": "8.3.1.1-preview.1.2",
+          "SkiaSharp": "3.119.0-preview.1.2",
+          "SkiaSharp.NativeAssets.macOS": "3.119.0-preview.1.2",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Runtime.Skia": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Runtime.Skia.MacOS.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libUnoNativeMac.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Uno.WinUI.Runtime.Skia.Win32/6.0.465": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.1-preview.1.2",
+          "Microsoft.Windows.CsWin32": "0.3.106",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Runtime.Skia": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Runtime.Skia.Win32.Support.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          },
+          "lib/net9.0/Uno.UI.Runtime.Skia.Win32.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Runtime.Skia.Wpf/6.0.465": {
+        "dependencies": {
+          "HarfBuzzSharp": "8.3.1.1-preview.1.2",
+          "Microsoft.Win32.SystemEvents": "9.0.0",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Runtime.Skia": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Runtime.Skia.Wpf.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      },
+      "Uno.WinUI.Runtime.Skia.X11/6.0.465": {
+        "dependencies": {
+          "HarfBuzzSharp.NativeAssets.Linux": "8.3.1.1-preview.1.2",
+          "HarfBuzzSharp": "8.3.1.1-preview.1.2",
+          "LibVLCSharp": "3.7.0",
+          "SkiaSharp": "3.119.0-preview.1.2",
+          "SkiaSharp.NativeAssets.Linux": "3.119.0-preview.1.2",
+          "Tmds.DBus.Protocol": "0.21.2",
+          "Uno.WinUI": "6.0.465",
+          "Uno.WinUI.Runtime.Skia": "6.0.465"
+        },
+        "runtime": {
+          "lib/net9.0/Uno.UI.Runtime.Skia.X11.dll": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "255.255.255.255"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnoTestApp/1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonServiceLocator/2.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Md2q9f6hAuUAm6IWTybQbYvxhDAs2dqmsudVDghpg0Q+C0M2KkmiTDjeGx1PsYhnZPvp+hy1Cx99v0VPW9W6/g==",
+      "path": "commonservicelocator/2.0.5",
+      "hashPath": "commonservicelocator.2.0.5.nupkg.sha512"
+    },
+    "CommunityToolkit.Mvvm/8.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tqVU8yc/ADO9oiTRyTnwhFN68hCwvkliMierptWOudIAvWY1mWCh5VFh+guwHJmpMwfg0J0rY+yyd5Oy7ty9Uw==",
+      "path": "communitytoolkit.mvvm/8.4.0",
+      "hashPath": "communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+    },
+    "HarfBuzzSharp/8.3.1.1-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-raAYK1w/dRFWmyiIW+KpDj5zhUdQDtbzTK7q6YP+qtHmbhrHS3re0MyQrfI8ypOCMnPiUItP/R5ellizN6pbHg==",
+      "path": "harfbuzzsharp/8.3.1.1-preview.1.2",
+      "hashPath": "harfbuzzsharp.8.3.1.1-preview.1.2.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Linux/8.3.1.1-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zftAUE5axEqe/F7/s9/h/SAw6Bt+Bu1htv7Fk1NvZNfx0l/5vxnGwG/lFcfKA1pFo8sMffTtTLaRo8eVEM34Ag==",
+      "path": "harfbuzzsharp.nativeassets.linux/8.3.1.1-preview.1.2",
+      "hashPath": "harfbuzzsharp.nativeassets.linux.8.3.1.1-preview.1.2.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.macOS/8.3.1.1-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zOV4y9jvG5AIAiFTpjOdXqEum+yWoqRV88Eq008IbP/qxqG+UwUCDRsYIxbiCFRGpSNWG7u1nJO54pPITT+swg==",
+      "path": "harfbuzzsharp.nativeassets.macos/8.3.1.1-preview.1.2",
+      "hashPath": "harfbuzzsharp.nativeassets.macos.8.3.1.1-preview.1.2.nupkg.sha512"
+    },
+    "HarfBuzzSharp.NativeAssets.Win32/8.3.1.1-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8ZSNKExR0ewPWfR79eCID9z2j95kcrhLP+34mIkjfiD/SKq5CA84pP8TDJw5/oDxPorZ5i9DCKR+C9CaNESOBA==",
+      "path": "harfbuzzsharp.nativeassets.win32/8.3.1.1-preview.1.2",
+      "hashPath": "harfbuzzsharp.nativeassets.win32.8.3.1.1-preview.1.2.nupkg.sha512"
+    },
+    "LibVLCSharp/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N9NV+BamKr+1YiRktX9JroE4m9C+pEszUNW4qa3A5mychhCWBvvoDolZKWk2yxhZvHewgaXXahBcw5ivCXjKYA==",
+      "path": "libvlcsharp/3.7.0",
+      "hashPath": "libvlcsharp.3.7.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3WA9q9yVqJp222P3x1wYIGDAkpjAku0TMUaaQV22g6L67AI0LdOIrVS7Ht2vJfLHGSPVuqN94vIr15qn+HEkHw==",
+      "path": "microsoft.bcl.asyncinterfaces/8.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIVBrMbItnCJDd1RF4KEaE8jZwDJcDUJW5zXpbwQ05HNYTK1GveHxHK0B3SjgDJuR48GRACXAO+BLhL8h34S7g==",
+      "path": "microsoft.extensions.configuration/9.0.4",
+      "hashPath": "microsoft.extensions.configuration.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0LN/DiIKvBrkqp7gkF3qhGIeZk6/B63PthAHjQsxymJfIBcz0kbf4/p/t4lMgggVxZ+flRi5xvTwlpPOoZk8fg==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cdrjcl9RIcwt3ECbnpP0Gt1+pkjdW90mq5yFYy8D9qRj2NqFFcv3yDp141iEamsd9E218sGxK8WHaIOcrqgDJg==",
+      "path": "microsoft.extensions.configuration.binder/9.0.4",
+      "hashPath": "microsoft.extensions.configuration.binder.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.CommandLine/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NZuZMz3Q8Z780nKX3ifV1fE7lS+6pynDHK71OfU4OZ1ItgvDOhyOC7E6z+JMZrAj63zRpwbdldYFk499t3+1dQ==",
+      "path": "microsoft.extensions.configuration.commandline/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.commandline.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.EnvironmentVariables/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-plvZ0ZIpq+97gdPNNvhwvrEZ92kNml9hd1pe3idMA7svR0PztdzVLkoWLcRFgySYXUJc3kSM3Xw3mNFMo/bxRA==",
+      "path": "microsoft.extensions.configuration.environmentvariables/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.environmentvariables.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-McP+Lz/EKwvtCv48z0YImw+L1gi1gy5rHhNaNIY2CrjloV+XY8gydT8DjMR6zWeL13AFK+DioVpppwAuO1Gi1w==",
+      "path": "microsoft.extensions.configuration.fileextensions/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2wqUoh9OmRL1akaCcKSTmRU8z0kckfImG7zLNI8uyi47Lp+zd5LWAD17waPQEqCz3ioWOCrFUo+JJuoeZLOBw==",
+      "path": "microsoft.extensions.configuration.json/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.json.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.UserSecrets/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ihDHu2dJYQird9pl2CbdwuNDfvCZdOS0S7SPlNfhPt0B81UTT+yyZKz2pimFZGUp3AfuBRnqUCxB2SjsZKHVUw==",
+      "path": "microsoft.extensions.configuration.usersecrets/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.usersecrets.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f2MTUaS2EQ3lX4325ytPAISZqgBfXmY0WvgD80ji6Z20AoDNiCESxsqo6mFRwHJD/jfVKRw9FsW6+86gNre3ug==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3PZp/YSkIXrF7QK7PfC1bkyRYwqOHpWFad8Qx+4wkuumAeXo1NHaxpS9LboNA9OvNSAu+QOVlXbMyoY+pHSqcw==",
+      "path": "microsoft.extensions.diagnostics/8.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JHYCQG7HmugNYUhOl368g+NMxYE/N/AiclCYRNlgCY9eVyiBkOHMwK4x60RYMxv9EL3+rmj1mqHvdCiPpC+D4Q==",
+      "path": "microsoft.extensions.diagnostics.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZbaMlhJlpisjuWbvXr4LdAst/1XxH3vZ6A0BsgTphZ2L4PGuxRLz7Jr/S7mkAAnOn78Vu0fKhEgNF5JO3zfjqQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UboiXxpPUpwulHvIAVE36Knq0VSHaAmfrFkegLyBZeaADuKezJ/AIXYAW8F5GBlGk/VaibN2k/Zn1ca8YAfVdA==",
+      "path": "microsoft.extensions.fileproviders.physical/8.0.0",
+      "hashPath": "microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OK+670i7esqlQrPjdIKRbsyMCe9g5kSLpRRQGSr4Q58AOYEe/hCnfLZprh7viNisSUUQZmMrbbuDaIrP+V1ebQ==",
+      "path": "microsoft.extensions.filesystemglobbing/8.0.0",
+      "hashPath": "microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ItYHpdqVp5/oFLT5QqbopnkKlyFG9EW/9nhM6/yfObeKt6Su0wkBio6AizgRHGNwhJuAtlE5VIjow5JOTrip6w==",
+      "path": "microsoft.extensions.hosting/8.0.0",
+      "hashPath": "microsoft.extensions.hosting.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AG7HWwVRdCHlaA++1oKDxLsXIBxmDpMPb3VoyOoAghEWnkUvEAdYQUwnV4jJbAaa/nMYNiEh5ByoLauZBEiovg==",
+      "path": "microsoft.extensions.hosting.abstractions/8.0.0",
+      "hashPath": "microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Http/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cWz4caHwvx0emoYe7NkHPxII/KkTI8R/LC9qdqJqnKv2poTJ4e2qqPGQqvRoQ5kaSA4FU5IV3qFAuLuOhoqULQ==",
+      "path": "microsoft.extensions.http/8.0.0",
+      "hashPath": "microsoft.extensions.http.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Localization.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6I7L2lNIziR93fjxecmeXi/dTnsGc7zHp+zXIywA01wzy769o11Ba6IDmese3MLXYBohiWf5X/dhT04AeouSHA==",
+      "path": "microsoft.extensions.localization.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.localization.abstractions.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xW6QPYsqhbuWBO9/1oA43g/XPKbohJx+7G8FLQgQXIriYvY7s+gxr2wjQJfRoPO900dvvv2vVH7wZovG+M1m6w==",
+      "path": "microsoft.extensions.logging/9.0.4",
+      "hashPath": "microsoft.extensions.logging.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0MXlimU4Dud6t+iNi5NEz3dO2w1HXdhoOLaYFuLPCjAsvlPQGwOT6V2KZRMLEhCAm/stSZt1AUv0XmDdkjvtbw==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Configuration/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/kF+rSnoo3/nIwGzWsR4RgBnoTOdZ3lzz2qFRyp/GgaNid4j6hOAQrs/O+QHXhlcAdZxjg37MvtIE+pAvIgi9g==",
+      "path": "microsoft.extensions.logging.configuration/9.0.4",
+      "hashPath": "microsoft.extensions.logging.configuration.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Console/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI0lQe0js65INCTCtAgnlVJWKgzgoRHVAW1B1zwCbmcliO4IZoTf92f1SYbLeLk7FzMJ/GlCvjLvJegJ6kltmQ==",
+      "path": "microsoft.extensions.logging.console/9.0.4",
+      "hashPath": "microsoft.extensions.logging.console.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Debug/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dt0x21qBdudHLW/bjMJpkixv858RRr8eSomgVbU8qljOyfrfDGi1JQvpF9w8S7ziRPtRKisuWaOwFxJM82GxeA==",
+      "path": "microsoft.extensions.logging.debug/8.0.0",
+      "hashPath": "microsoft.extensions.logging.debug.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.EventLog/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3X9D3sl7EmOu7vQp5MJrmIJBl5XSdOhZPYXUeFfYa6Nnm9+tok8x3t3IVPLhm7UJtPOU61ohFchw8rNm9tIYOQ==",
+      "path": "microsoft.extensions.logging.eventlog/8.0.0",
+      "hashPath": "microsoft.extensions.logging.eventlog.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.EventSource/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oKcPMrw+luz2DUAKhwFXrmFikZWnyc8l2RKoQwqU3KIZZjcfoJE0zRHAnqATfhRZhtcbjl/QkiY2Xjxp0xu+6w==",
+      "path": "microsoft.extensions.logging.eventsource/8.0.0",
+      "hashPath": "microsoft.extensions.logging.eventsource.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fiFI2+58kicqVZyt/6obqoFwHiab7LC4FkQ3mmiBJ28Yy4fAvy2+v9MRnSvvlOO8chTOjKsdafFl/K9veCPo5g==",
+      "path": "microsoft.extensions.options/9.0.4",
+      "hashPath": "microsoft.extensions.options.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aridVhAT3Ep+vsirR1pzjaOw0Jwiob6dc73VFQn2XmDfBA2X98M8YKO1GarvsXRX7gX1Aj+hj2ijMzrMHDOm0A==",
+      "path": "microsoft.extensions.options.configurationextensions/9.0.4",
+      "hashPath": "microsoft.extensions.options.configurationextensions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SPFyMjyku1nqTFFJ928JAMd0QnRe4xjE7KeKnZMWXf3xk+6e0WiOZAluYtLdbJUXtsl2cCRSi8cBquJ408k8RA==",
+      "path": "microsoft.extensions.primitives/9.0.4",
+      "hashPath": "microsoft.extensions.primitives.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z8FfGIaoeALdD+KF44A2uP8PZIQQtDGiXsOLuN8nohbKhkyKt7zGaZb+fKiCxTuBqG22Q7myIAioSWaIcOOrOw==",
+      "path": "microsoft.win32.systemevents/9.0.0",
+      "hashPath": "microsoft.win32.systemevents.9.0.0.nupkg.sha512"
+    },
+    "Microsoft.Windows.CsWin32/0.3.106": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mx5fK7uN6fwLR4wUghs6//HonAnwPBNmC2oonyJVhCUlHS/r6SUS3NkBc3+gaQiv+0/9bqdj1oSCKQFkNI+21Q==",
+      "path": "microsoft.windows.cswin32/0.3.106",
+      "hashPath": "microsoft.windows.cswin32.0.3.106.nupkg.sha512"
+    },
+    "Microsoft.Windows.SDK.Win32Docs/0.1.42-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z/9po23gUA9aoukirh2ItMU2ZS9++Js9Gdds9fu5yuMojDrmArvY2y+tq9985tR3cxFxpZO1O35Wjfo0khj5HA==",
+      "path": "microsoft.windows.sdk.win32docs/0.1.42-alpha",
+      "hashPath": "microsoft.windows.sdk.win32docs.0.1.42-alpha.nupkg.sha512"
+    },
+    "Microsoft.Windows.SDK.Win32Metadata/60.0.34-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TA3DUNi4CTeo+ItTXBnGZFt2159XOGSl0UOlG5vjDj4WHqZjhwYyyUnzOtrbCERiSaP2Hzg7otJNWwOSZgutyA==",
+      "path": "microsoft.windows.sdk.win32metadata/60.0.34-preview",
+      "hashPath": "microsoft.windows.sdk.win32metadata.60.0.34-preview.nupkg.sha512"
+    },
+    "Microsoft.Windows.WDK.Win32Metadata/0.11.4-experimental": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bf5MCmUyZf0gBlYQjx9UpRAZWBkRndyt9XicR+UNLvAUAFTZQbu6YaX/sNKZlR98Grn0gydfh/yT4I3vc0AIQA==",
+      "path": "microsoft.windows.wdk.win32metadata/0.11.4-experimental",
+      "hashPath": "microsoft.windows.wdk.win32metadata.0.11.4-experimental.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "Refit/7.2.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzpjDvWTKaJkhRejrHI6E2WXs2CaJYWZTMICq5Jha4wlSVvR3dd9n3M4p3X7BQ6uw0LJSFiHlTYwzjQIbJdArg==",
+      "path": "refit/7.2.22",
+      "hashPath": "refit.7.2.22.nupkg.sha512"
+    },
+    "SkiaSharp/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YpwE8w0XAwMmik/WPpGFNH3/qnK10KkN0k+UMKsOzTzuqzv00UBsJd8/y4HEj6hXvOM6nX3LurRdq3ahluliZw==",
+      "path": "skiasharp/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sIosdSfGsNovt2JVQ0B+XSkENbhAQtS9XWcetEgcwvsB1cayjpGbiD3z7M+K7hLejfhnjTTILmCEoFTkT7cXNQ==",
+      "path": "skiasharp.nativeassets.linux/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.nativeassets.linux.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.macOS/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9TbuZloRaFQt8lgaDIBs5CQrDf6h9ouLrYEetFAUiGQZBrJho5wxr/WjlLGAprubOJChxtLrFSe1adp9mT5C8g==",
+      "path": "skiasharp.nativeassets.macos/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.nativeassets.macos.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.WebAssembly/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3kmbq9blotAvaOxptEryB0Zx+N5iaJqigumTJyEvPSlt/oRAh2YaEEJbKa/1nqOU8Yg3p+qs9aMphZyZdJFTSg==",
+      "path": "skiasharp.nativeassets.webassembly/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.nativeassets.webassembly.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Win32/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j8myDNfWRQG/qzKbCuIVfmMFjmTA9zGXB0XC9T1/LVVeF7mGC5ljo77vSqtEVHtIZOEiy3MZOjCRbMZCRLkAwA==",
+      "path": "skiasharp.nativeassets.win32/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.nativeassets.win32.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.Resources/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VFsQ9plcE+o2nkXUBNsQyS203+aU98MxNqiV9XtepxwGN6ifYg1zapZM4XTYVWLr+vjGDSpuz88nRqGADp+aUg==",
+      "path": "skiasharp.resources/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.resources.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.SceneGraph/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AGlVuq1L/1+xlTpWJ9paIzcqrSOhvEHuk/KlHqLPd2EaB/Ub/upHvrx3BtExMbKf4D4Fda0+UgOzlSl8UIg8cA==",
+      "path": "skiasharp.scenegraph/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.scenegraph.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.Skottie/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1sAxgz+kOUUxTYZZc9ouWbcyeV4IspkiWnKr3353S/XSn/U4eUILN+J0tK4zCb3S6lP8ie6XlQiAGzoAaOIoSA==",
+      "path": "skiasharp.skottie/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.skottie.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Uno.WinUI/3.119.0-preview.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sHOovewGIxD408XO7rJaxrFdhYYv3gOGs9AtIpqu3vTciY0AvYlt7rdw9kn4HvgpedJRvvQc9YhdwUeER0C6UQ==",
+      "path": "skiasharp.views.uno.winui/3.119.0-preview.1.2",
+      "hashPath": "skiasharp.views.uno.winui.3.119.0-preview.1.2.nupkg.sha512"
+    },
+    "System.Collections.Immutable/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AurL6Y5BA1WotzlEvVaIDpqzpIPvYnnldxru8oXJU2yFxFUy3+pNXjXd1ymO+RA0rq0+590Q8gaz2l3Sr7fmqg==",
+      "path": "system.collections.immutable/8.0.0",
+      "hashPath": "system.collections.immutable.8.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.EventLog/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fdYxcRjQqTTacKId/2IECojlDSFvp7LP5N78+0z/xH7v/Tuw5ZAxu23Y6PTCRinqyu2ePx+Gn1098NC6jM6d+A==",
+      "path": "system.diagnostics.eventlog/8.0.0",
+      "hashPath": "system.diagnostics.eventlog.8.0.0.nupkg.sha512"
+    },
+    "System.IO.Pipelines/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
+      "path": "system.io.pipelines/8.0.0",
+      "hashPath": "system.io.pipelines.8.0.0.nupkg.sha512"
+    },
+    "System.Json/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XymImdgljgVEkd9trFSKWlNJac1Hr+L9lwFLQSUUQfFMkm88AHI6DINAMhpoiUWQIPLIqEjR702eydUb4Qb3Ng==",
+      "path": "system.json/4.7.1",
+      "hashPath": "system.json.4.7.1.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Text.Json/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "Tmds.DBus.Protocol/0.21.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ScSMrUrrw8px4kK1Glh0fZv/HQUlg1078bNXNPfRPKQ3WbRzV9HpsydYEOgSoMK5LWICMf2bMwIFH0pGjxjcMA==",
+      "path": "tmds.dbus.protocol/0.21.2",
+      "hashPath": "tmds.dbus.protocol.0.21.2.nupkg.sha512"
+    },
+    "Uno.Core.Extensions/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2IFxilOCmozAJ+zLHZAONWjOBi3i8Nr5ndAsTjbB6enG9NkrYC/lv8/GF6c5Sj3e0TmRSLXWjutEZGHwLxj3pg==",
+      "path": "uno.core.extensions/4.1.1",
+      "hashPath": "uno.core.extensions.4.1.1.nupkg.sha512"
+    },
+    "Uno.Core.Extensions.Collections/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZJFsUkMQR0vL9VUiy/+QRoUmTRJkJsLbIatU5QMOTwQzHsCqTtkvm2DF31Z1UeXu10EH+1J/YXAXr0LS+nOw5A==",
+      "path": "uno.core.extensions.collections/4.1.1",
+      "hashPath": "uno.core.extensions.collections.4.1.1.nupkg.sha512"
+    },
+    "Uno.Core.Extensions.Disposables/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NSsolz0P5R5lpgtBx8yf9F8qfjuw4+wykGsr99JDkYkbZ+ZkD651uW0lbvl6/lbQgcSljVgSExMnOw7WonbyVQ==",
+      "path": "uno.core.extensions.disposables/4.1.1",
+      "hashPath": "uno.core.extensions.disposables.4.1.1.nupkg.sha512"
+    },
+    "Uno.Core.Extensions.Equality/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BvJIN/RELgUxZadN+HO1PpvV0i3JA4sXgjlUtMin8gOr/zAoSQLeYWWhcVm+s5LqWj7oYGguqN3kw+peKUI0+w==",
+      "path": "uno.core.extensions.equality/4.1.1",
+      "hashPath": "uno.core.extensions.equality.4.1.1.nupkg.sha512"
+    },
+    "Uno.Core.Extensions.Logging/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f4nnnXbdiJWKKOfo1uJnZcAl36GvTuuuyG80VKA5nfKB7UpBMU1d/lB70TcOYESSBpT17xowmwcyB8hb6+i9ZA==",
+      "path": "uno.core.extensions.logging/4.0.1",
+      "hashPath": "uno.core.extensions.logging.4.0.1.nupkg.sha512"
+    },
+    "Uno.Core.Extensions.Logging.Singleton/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P+MQuWFpfDzKNs4UMqQp0WxBGl2MAsxUZrWbdC6rFUWs1ZLCH8B8u8nbIloTnMniPOut3YYdTQHPNLhhTUYrzg==",
+      "path": "uno.core.extensions.logging.singleton/4.1.1",
+      "hashPath": "uno.core.extensions.logging.singleton.4.1.1.nupkg.sha512"
+    },
+    "Uno.Diagnostics.Eventing/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Hd03em+Bga+w+ljCtiyc+713PQDtCB0Qkw3sBggvXXdDB2URwEc3N4TnM3vFeXpmHHZGM7dN7D8qxfiGoEEHzw==",
+      "path": "uno.diagnostics.eventing/2.0.1",
+      "hashPath": "uno.diagnostics.eventing.2.0.1.nupkg.sha512"
+    },
+    "Uno.Dsp.Tasks/1.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kb+S32ulgJGjprmoQW93GSu/T5emcmNtyK5Y/hJN54ovbEfK4S/NItxgJKjCRtQ2W9jJZxW8WwoxadnDTdAk5A==",
+      "path": "uno.dsp.tasks/1.4.0",
+      "hashPath": "uno.dsp.tasks.1.4.0.nupkg.sha512"
+    },
+    "Uno.Extensions.Configuration/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-20jvCKXR08jCtBTj9lM7giKRVJZ/ziCCdoKWsfyeXX2CMOuG3vpl+HgHXo3s7bhvOaqqkau4yvc14Zoux+dvMg==",
+      "path": "uno.extensions.configuration/5.3.8",
+      "hashPath": "uno.extensions.configuration.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Core/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rWj5tv4TajTwN4bsn4SL0YjprAgB39Jc/jQahVO9r/pO2mJIJNBathXet1X2Ziw9gkQ5xqqe6M/yGG/dzdJZHg==",
+      "path": "uno.extensions.core/5.3.8",
+      "hashPath": "uno.extensions.core.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Core.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GDT98XL3K9GnmDEvmEFQPezzpH4UpOE4KRJSCd+9Hwn71xQZfG0vZoVWdO1vpb9YmgWTvB0r8gpbxCW/dWOHag==",
+      "path": "uno.extensions.core.winui/5.3.8",
+      "hashPath": "uno.extensions.core.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Hosting/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6VN++x9NnDvOaxzqW0QoqDBfdvzoVXv/hKC3BspEUGlqtlKRZs/2q6lpDz0q8PE+AfTkG/291X7DkHlr11lp2A==",
+      "path": "uno.extensions.hosting/5.3.8",
+      "hashPath": "uno.extensions.hosting.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Hosting.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FGaemQO9utiVfc2imSiDVKQZUVBb/aQUcPHtJ7jviRxOLxBm9DlvxmRdPkW3dchnpwTQCrXoYtCCbPsfe/VT/w==",
+      "path": "uno.extensions.hosting.winui/5.3.8",
+      "hashPath": "uno.extensions.hosting.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Http/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fsrw51MKGfzb7mPBrn5xQCom0DSleln0NaohV9CaRDaE57y/QBcylsmfmdi+D692VtE1HyiwHjUQAJaUDKo/qA==",
+      "path": "uno.extensions.http/5.3.8",
+      "hashPath": "uno.extensions.http.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Http.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v++U207Sql+uPgEBIP8vny4rVv0sHQBvsLx8cmtmQw5t+Ufi7IlZEY2qrY/M2gbMRfGoJi5/nVNG0owWpWxFeQ==",
+      "path": "uno.extensions.http.winui/5.3.8",
+      "hashPath": "uno.extensions.http.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Localization/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-shBNYTjFumf29LVpSu9iWiVZAcaLqY7rIFJostbYEpRhP1eqW7NUFwEc3x7+sCpv/zRGPFebDLE+1T4CD45uMg==",
+      "path": "uno.extensions.localization/5.3.8",
+      "hashPath": "uno.extensions.localization.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Localization.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YXB/vbwA+yuftlziGWP6QXhHkQedElA5OYB4/D0GeGY2kw7iBfwgBYs4/UailqsWH/DbfgFlSeCfT1fW+DpIBQ==",
+      "path": "uno.extensions.localization.winui/5.3.8",
+      "hashPath": "uno.extensions.localization.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Logging.WebAssembly.Console/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VuDnbM+a/+OkTGvPxQPeYPeZLxWQxKrE55YqwSDxw8lWyo/XwFYrIQmYKTFR8f8/ldrs/Po82YSwfxLnX0he8g==",
+      "path": "uno.extensions.logging.webassembly.console/1.7.0",
+      "hashPath": "uno.extensions.logging.webassembly.console.1.7.0.nupkg.sha512"
+    },
+    "Uno.Extensions.Logging.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Qd2DtUuBFDbNUvqVoEpcQYQvwlTglX6obf9sTtX/2t4qDwcDTm6a1ZGVpf0HcUz8vg7tioN9AaCxRx6hE8O1Qw==",
+      "path": "uno.extensions.logging.winui/5.3.8",
+      "hashPath": "uno.extensions.logging.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Markup.Generators/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fx13a0KgAAnGbkTUVYACpJas15QuYEW8Fs6qf3yEr7aHK1ZoFwVyMLv88xYCIXp3AtkvNlR624TuNRuLaFWekg==",
+      "path": "uno.extensions.markup.generators/6.0.15",
+      "hashPath": "uno.extensions.markup.generators.6.0.15.nupkg.sha512"
+    },
+    "Uno.Extensions.Markup.WinUI/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iuMpHF/nyMbghz2Gegdn4Sve0msnUxqzgT1J5359nsvZnqfxfyr1TNkVMgUj+sIPH51HlMuQkMcBbGJZn5lcLQ==",
+      "path": "uno.extensions.markup.winui/6.0.15",
+      "hashPath": "uno.extensions.markup.winui.6.0.15.nupkg.sha512"
+    },
+    "Uno.Extensions.Navigation/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dj7O2wknyQH8jk6FO3b/AXoGUJthbtPXoZdrt6dEidQMknBQW94TEHmvmDzpOVSroFeoHVt8CtOEGsGOTfBmow==",
+      "path": "uno.extensions.navigation/5.3.8",
+      "hashPath": "uno.extensions.navigation.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Navigation.Toolkit.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k/wGgm5yCUEzZWX64smf+EL4uGmXj7F9cU0gDU4CQOo6O7mpRnKKuISHyroZxOfESYB27kfy/1/smGq+n2wNQA==",
+      "path": "uno.extensions.navigation.toolkit.winui/5.3.8",
+      "hashPath": "uno.extensions.navigation.toolkit.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Navigation.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sUSFdI+xATM4bEX8Gn2oWZelQVxgKbuKVBqFHO4GC8TNnkpwWVTlGUS/wcfim9oBMTRCZIxuQq7k5LWP+WUVHA==",
+      "path": "uno.extensions.navigation.winui/5.3.8",
+      "hashPath": "uno.extensions.navigation.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Navigation.WinUI.Markup/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4VyrYfsA5vAqEBufTysvXNpDLe1/jLAByjjhQFg/lpKKh9fYkTgfcnnqIN9sxBEG1q79MAnVXelXMwNxhOWFSQ==",
+      "path": "uno.extensions.navigation.winui.markup/5.3.8",
+      "hashPath": "uno.extensions.navigation.winui.markup.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Serialization/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FHAw1rCT93n9bhBQr1aqwbvsPRluwdzaotoxjkrtPR8Yv8AX3B2wyfrUg757qCka6coBSSF6Wuq/M3VV4WdZUA==",
+      "path": "uno.extensions.serialization/5.3.8",
+      "hashPath": "uno.extensions.serialization.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Serialization.Http/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-77VE7cTjhna9CiKmwHF+bebR2vwLatUpPraocCZpXdwulf94xlAYV7V3gPcomT1s4qdoMl2oj7sXMhn+Ra/AEA==",
+      "path": "uno.extensions.serialization.http/5.3.8",
+      "hashPath": "uno.extensions.serialization.http.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Serialization.Refit/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LT9Y6EINVT2SkEWY97hgAtOcj5lUUTadFpCUxMgbovuOBb24jfu7HNod3EITjkBsuwvs7NP0JM4uRJE4lmTYZQ==",
+      "path": "uno.extensions.serialization.refit/5.3.8",
+      "hashPath": "uno.extensions.serialization.refit.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Storage/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ccUAMVesWXXkrrhzLbW3yp7GDaKcprQWg211Hy04kqpX+heckKxx9CJa8Z+egIRopoxR5HUQtwuHpZsc/egX7w==",
+      "path": "uno.extensions.storage/5.3.8",
+      "hashPath": "uno.extensions.storage.5.3.8.nupkg.sha512"
+    },
+    "Uno.Extensions.Storage.WinUI/5.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+VD2Z2Mwn5Eu8swW4qngFkFI0sfq5D9lzuZRTFSlKvXCN0AEMLaJfASaIjGWw01HyvPJqEJrtOndFBDf4A9VhA==",
+      "path": "uno.extensions.storage.winui/5.3.8",
+      "hashPath": "uno.extensions.storage.winui.5.3.8.nupkg.sha512"
+    },
+    "Uno.Fonts.Fluent/2.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mV1JWlpU9e6uWf/hamfTv+ysSRlRjjao1WtewGUtFz2/tB83C5h10gZReiWX4ZQXG2P0bgI/yx1ZxPYfiM3Hcg==",
+      "path": "uno.fonts.fluent/2.6.1",
+      "hashPath": "uno.fonts.fluent.2.6.1.nupkg.sha512"
+    },
+    "Uno.Fonts.OpenSans/2.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sFZUzCtp7K95kw2BPeFvuNF3RgBgFGAmjkPFGkSwZJwcSk368PW76gCaVYrRBe4niQHOsQg84xmE+PtoYvpVog==",
+      "path": "uno.fonts.opensans/2.7.1",
+      "hashPath": "uno.fonts.opensans.2.7.1.nupkg.sha512"
+    },
+    "Uno.Fonts.Roboto/2.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZwpuV0++EPb7qAZuk8rj9fB4DR8FjeAcjug/JRYYf45p2tep6yb2GGxhU0yMGG+57Dtjavomq+abOXetSKEKvw==",
+      "path": "uno.fonts.roboto/2.2.2",
+      "hashPath": "uno.fonts.roboto.2.2.2.nupkg.sha512"
+    },
+    "Uno.Foundation/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rzOaarM1Cw7uL8AfMmo5QCHVCjTA0nTigZO3tPcWNClmpBmLADTzrJVSFm9x6nT3FlkVj6kP3ObVABpN9Ugpmw==",
+      "path": "uno.foundation/6.0.465",
+      "hashPath": "uno.foundation.6.0.465.nupkg.sha512"
+    },
+    "Uno.Foundation.Logging/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k73NaJwxgmmMTJiBo+CJO4TbACc66stdXLDd9fIxqRo5qPvGWakWJvDgxftkBf3D/IY61UH7/K3mpJfSSRJmrw==",
+      "path": "uno.foundation.logging/6.0.465",
+      "hashPath": "uno.foundation.logging.6.0.465.nupkg.sha512"
+    },
+    "Uno.Material.WinUI/5.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Py0w+Y5jEXgybyoyPeOQ8d6T2FGeE+9TMxGkIG3bPwTgy/UJ9Ej/uThzRB27n7vJ749tibZlMU3tG9+eYiHjcg==",
+      "path": "uno.material.winui/5.5.1",
+      "hashPath": "uno.material.winui.5.5.1.nupkg.sha512"
+    },
+    "Uno.Material.WinUI.Markup/5.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bpDj9kcJg349ugDFCHt2BmeSzd1BmbsoLRQ52HyZ81AQ8pxf1WFSXeFGCtVh2RBs3Y8oIIHYJTesqowHb1108Q==",
+      "path": "uno.material.winui.markup/5.5.1",
+      "hashPath": "uno.material.winui.markup.5.5.1.nupkg.sha512"
+    },
+    "Uno.Resizetizer/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TeHaEA2v5SN7cr98BAN8Tfm7xKKpTwzL9KBFF8+FzK9Vfc8tuOw1mwetorc8nArXN9kseXufyZIfqWk+kEKeAQ==",
+      "path": "uno.resizetizer/1.8.1",
+      "hashPath": "uno.resizetizer.1.8.1.nupkg.sha512"
+    },
+    "Uno.Sdk.Extras/5.6.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-slDSWKFsOJHljhR/WEy00Xk/g541MC9bPkZQv8ajniCz8F+jb7bveNmYxt0zrJB+Exp3j77PqWdB2oAOZcJDeA==",
+      "path": "uno.sdk.extras/5.6.3",
+      "hashPath": "uno.sdk.extras.5.6.3.nupkg.sha512"
+    },
+    "Uno.Settings.DevServer/1.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IYQ5JZ7teYl38wMQDGr0zAUt5xPtrojZynX0dC3TURKx1NmuXAhMndkXBsj4fKQljk8gTPW8SBWfT4pZZK4YcA==",
+      "path": "uno.settings.devserver/1.3.8",
+      "hashPath": "uno.settings.devserver.1.3.8.nupkg.sha512"
+    },
+    "Uno.Themes.WinUI/5.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5CPhvaMesZP5m2K3o+SdHBTDQIsJyjqqykrvqahIhu/A0E68Thm6I4d8K/2EcbvW8vxvSSP1k/kSa2yx6jJjIQ==",
+      "path": "uno.themes.winui/5.5.1",
+      "hashPath": "uno.themes.winui.5.5.1.nupkg.sha512"
+    },
+    "Uno.Themes.WinUI.Markup/5.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZQi4yonsjLJ5S5/lmFBd34IRdbib9ZckFuPFm+mFZZrkS/q3Vlci/fCkpnlubR42F1eitAg9GU8P4bMXCwX+7g==",
+      "path": "uno.themes.winui.markup/5.5.1",
+      "hashPath": "uno.themes.winui.markup.5.5.1.nupkg.sha512"
+    },
+    "Uno.Toolkit/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Zl087wd90tBcqRfxOwjPu6HfBhQLT/6LulniBZ4xZtsHKzjbP5NHQUpuCFX+0qpmWIlRJW0EZKcBOQ5yFsVuUg==",
+      "path": "uno.toolkit/7.0.2",
+      "hashPath": "uno.toolkit.7.0.2.nupkg.sha512"
+    },
+    "Uno.Toolkit.WinUI/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/8a4JXjQXZDnxPrYuTN88q6WNfwuKLV43HprWf2tgjlJlmVM5lFBGB8N3yLs4HhDu4WwwIUMdy5GWnIMsckxUg==",
+      "path": "uno.toolkit.winui/7.0.2",
+      "hashPath": "uno.toolkit.winui.7.0.2.nupkg.sha512"
+    },
+    "Uno.Toolkit.WinUI.Markup/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3tk6K1uuooFFmvO5GvQQSYBbeV34QMKIiyTEldN72ZfgeYI6V7iyMw1evYhMlFmzxEBVAfVo3bUmuBzvmczSkA==",
+      "path": "uno.toolkit.winui.markup/7.0.2",
+      "hashPath": "uno.toolkit.winui.markup.7.0.2.nupkg.sha512"
+    },
+    "Uno.Toolkit.WinUI.Material/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bMZ2fPTH7pqsLppaG8n+IWzD4iOJiafugoDnOjXokEB6VlDoglxE3gMRO7ajrZG5Vu+Hs63CLdKkMDgPQeKCvw==",
+      "path": "uno.toolkit.winui.material/7.0.2",
+      "hashPath": "uno.toolkit.winui.material.7.0.2.nupkg.sha512"
+    },
+    "Uno.Toolkit.WinUI.Material.Markup/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dr+6MhMGyf1DrE+8BajHJH6/egwG2wxuUs9zymo2ozLaY9wIXo9TSDby5Xm9p/EGrQhr+PD3S6+rlmklGjb6ZA==",
+      "path": "uno.toolkit.winui.material.markup/7.0.2",
+      "hashPath": "uno.toolkit.winui.material.markup.7.0.2.nupkg.sha512"
+    },
+    "Uno.UI.Adapter.Microsoft.Extensions.Logging/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2wgGMG4HZ4v3mKiebeVspiApsln/EEL1rhjOx/bI3VAiN2GICsI7Qcg0xN1ZealsUE6vJ9hAgEqy9R2uVnMIjw==",
+      "path": "uno.ui.adapter.microsoft.extensions.logging/6.0.465",
+      "hashPath": "uno.ui.adapter.microsoft.extensions.logging.6.0.465.nupkg.sha512"
+    },
+    "Uno.UI.HotDesign/1.11.182": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wz2Rb39e0r96pmgeL69Gu8Oo202KCY0FAjOzn7RSdzZIPz66twuUq+1jlmW8nxoWuiNg/CZ4LFLc8I1IXj7WbA==",
+      "path": "uno.ui.hotdesign/1.11.182",
+      "hashPath": "uno.ui.hotdesign.1.11.182.nupkg.sha512"
+    },
+    "Uno.Wasm.WebSockets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U2d297Z/CxP0GZ3mYCu8kdKzO7PKw5lE7j+gwgXAZS1OlZiWS9EoiBbpUmr/0nSH6wPqClMbtGi6LLs0jslOog==",
+      "path": "uno.wasm.websockets/1.1.0",
+      "hashPath": "uno.wasm.websockets.1.1.0.nupkg.sha512"
+    },
+    "Uno.WinRT/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cVYCU2IBXwZEhBkwsZSE1LfGgMzJm2XvrGY9sXMZRLJC7+772g0/fuZPCYpMpBVUKoeeDkUCo1YbDUacxH0TIA==",
+      "path": "uno.winrt/6.0.465",
+      "hashPath": "uno.winrt.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WkQhdarcmbCgYvKfSrE+gkBZLFafzYOqr3vrmZTRyPlMsFeVgTdW/L4Ovpq2ErIk0hB7s0keWjbHHda70iBsNw==",
+      "path": "uno.winui/6.0.465",
+      "hashPath": "uno.winui.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.DevServer/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PMbTVtEk9bm+2Y6TKol34Tj8Jb+ziZXqoxsNvN6c4iJ5buf5t/t51oLarheLr8YGMgeoRi27y997Tohd1DLzsw==",
+      "path": "uno.winui.devserver/6.0.465",
+      "hashPath": "uno.winui.devserver.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.DevServer.Messaging/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aYzL6WmBiNE/pr13/KlqzfYyw4irxdO5AuyRZAqw3t3ZcLnbqEhCP0Z0fgKxUkxdO+yjxq+Qa5PzZLrt84gWgw==",
+      "path": "uno.winui.devserver.messaging/6.0.465",
+      "hashPath": "uno.winui.devserver.messaging.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Graphics2DSK/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ypeS05GjRTSeAJX3WisPADZHY9JfiawrFqA3bZfxoxgdEl8RLOycCViWjMU5Dz5pXtF9iHj43YBuPJpv+OFTVA==",
+      "path": "uno.winui.graphics2dsk/6.0.465",
+      "hashPath": "uno.winui.graphics2dsk.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Lottie/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QB/blo9f7i1KwiEpLvrtUX4vhNwWV6mLiCVNrjhqjeU/xvXVG62abg/mlO3iiVgE/NXCz0ygiUfr1Fdi3azmKQ==",
+      "path": "uno.winui.lottie/6.0.465",
+      "hashPath": "uno.winui.lottie.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Markup/6.0.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ru/pUNvNOJsIqpEeLr9GBIxhWC93un08DBMIpnf5tQsJHzbXeee6G8hJrNpIHCLUORRQPmitzS1Tqp0QGzZZiA==",
+      "path": "uno.winui.markup/6.0.15",
+      "hashPath": "uno.winui.markup.6.0.15.nupkg.sha512"
+    },
+    "Uno.WinUI.Runtime.Skia/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KcGWGOM3neVLtdq+uFzijjmuJs3VMntR81SXWO3hTymIrVe2PP9EckAwWEJW0y7Nj6qZf5pjNe9Oml2fEv4WIw==",
+      "path": "uno.winui.runtime.skia/6.0.465",
+      "hashPath": "uno.winui.runtime.skia.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Runtime.Skia.Linux.FrameBuffer/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u3l9HBQ4dQMt5aWAF6v2FV01w8A3PyJFluWyEZDzR6K57y9klxy91RLeUm2pBbMcZc8fOq7e16AOLjC5ajAWBw==",
+      "path": "uno.winui.runtime.skia.linux.framebuffer/6.0.465",
+      "hashPath": "uno.winui.runtime.skia.linux.framebuffer.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Runtime.Skia.MacOS/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+Vs52pB6tlq9XJuaYPE5VfPedBRQ+8w2804jUKofPsaaX3OrCLQKn/PS0eKZLcO6OtKAiHCAm43M/95+c6SJZg==",
+      "path": "uno.winui.runtime.skia.macos/6.0.465",
+      "hashPath": "uno.winui.runtime.skia.macos.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Runtime.Skia.Win32/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y6GPTPOkBo+8i5qnC9zvz4qbZG+IDM1qsz9H/zk7W5iyBUfMf7jiw7G1MgyLisuP2i3TqgMMKiznJ/KlwLoH3Q==",
+      "path": "uno.winui.runtime.skia.win32/6.0.465",
+      "hashPath": "uno.winui.runtime.skia.win32.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Runtime.Skia.Wpf/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r3PeRbxOjWMEP0GDOTbCES08Cm8mvDJp8a5eQo3lTFYHiKBm732nKY3MzSpWv0HQI+1XrXthtdApvCxyInIS6w==",
+      "path": "uno.winui.runtime.skia.wpf/6.0.465",
+      "hashPath": "uno.winui.runtime.skia.wpf.6.0.465.nupkg.sha512"
+    },
+    "Uno.WinUI.Runtime.Skia.X11/6.0.465": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aQVDfBHWvUGlYZA5yD+qq5y5/CHC5QSX5nDHQFkxk7VA3X2ll8CLc37WPqSJSstFE4siwjnAVgBkU/JKHj9NSQ==",
+      "path": "uno.winui.runtime.skia.x11/6.0.465",
+      "hashPath": "uno.winui.runtime.skia.x11.6.0.465.nupkg.sha512"
+    }
+  }
+}
