@@ -9,6 +9,7 @@ public sealed partial class MainPage : Page
                 .Region(attached: true)
                 .RowDefinitions(",Auto")
                 .ColumnDefinitions("Auto,*")
+                .Visibility(Visibility.Visible)
                 .Children(
                     new Grid()
                         .Region(attached: true)
@@ -23,17 +24,17 @@ public sealed partial class MainPage : Page
                                 .Style(x => x.StaticResource("BottomTabBarStyle"))
                                 .SelectedIndex(0)
                                 .Items(
-                                    new TabBarItem().Icon(new SymbolIcon { Symbol = Symbol.Add })
+                                    new TabBarItem().Icon(new SymbolIcon(Symbol.Home))
                                         .Region(attached: true)
                                         .Name("Home")
                                         .Content("Accueil")
                                         .Style(x => x.StaticResource("MaterialBottomTabBarItemStyle")),
-                                    new TabBarItem().Icon(new SymbolIcon { Symbol = Symbol.AddFriend })
+                                    new TabBarItem().Icon(new SymbolIcon(Symbol.BlockContact))
                                         .Region(attached: true)
                                         .Content("Second")
                                         .Name("Second").Style(x => x.StaticResource("MaterialBottomTabBarItemStyle")
                                         ),
-                                    new TabBarItem().Icon(new SymbolIcon { Symbol = Symbol.AddFriend })
+                                    new TabBarItem().Icon(new SymbolIcon(Symbol.Setting))
                                         .Region(attached: true)
                                         .Content("Paramètres")
                                         .Name("Settings").Style(x => x.StaticResource("MaterialBottomTabBarItemStyle")

@@ -3178,6 +3178,11 @@
         </member>
         <member name="T:UnoTestApp.MetadataBuilder_631">
             <summary>
+            Builder for UnoTestApp.Presentation.SettingsPage
+            </summary>
+        </member>
+        <member name="T:UnoTestApp.MetadataBuilder_632">
+            <summary>
             Builder for UnoTestApp.Presentation.Shell
             </summary>
         </member>
